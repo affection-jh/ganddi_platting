@@ -13,17 +13,11 @@ const config: ConfigDto = {
         {
             name: "정재훈",
             id: "affection-jh",
-            startDate: "2024-12-30",
+            startDate: "2024-12-31",
             paid: 0,
             timeoff: ["2024-03-25", "2024-04-01", "2024-04-02"],
         },
-        {
-            name: "정재훈2",
-            id: "jaehu830",
-            startDate: "2024-12-10",
-            paid: 0,
-            timeoff: ["2024-03-25", "2024-04-01", "2024-04-02"],
-        },
+        
     ],
     fineFormula: defaultFineFormula,
 }
