@@ -1,19 +1,20 @@
 import {ConfigDto} from "./src/interface/dto/config.dto";
 import {ConfigConverter} from "./src/util/converter/config.converter";
+import { formatDate } from "./src/util/date";
 import defaultFineFormula from "./src/util/defaultFineFormula";
 
 const config: ConfigDto = {
-    subtitle: `${new Date().getFullYear()} OO동아리 여름방학`,
-    title: "잔디심기 스터디",
+    subtitle: `${new Date().getFullYear()} EOS 겨울방학`,
+    title: "아찔한 잔디심기",
     icon: "plant.png",
-    globalStartDate: "2024-01-01",
-    globalDueDate: null,
+    globalStartDate: "2024-12-30",
+    globalDueDate: "2025-01-31",
     users: [
         {
-            name: "박현호",
-            id: "laniel88",
-            startDate: "2024-01-08",
-            paid: 10000,
+            name: "정재훈",
+            id: "affection-jh",
+            startDate: "2024-12-29",
+            paid: 0,
             timeoff: ["2024-03-25", "2024-04-01", "2024-04-02"],
         },
     ],

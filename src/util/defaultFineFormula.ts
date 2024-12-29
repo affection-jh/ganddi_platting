@@ -17,7 +17,7 @@ const defaultFineFormula: FineFormula = (contributions: Contribution[]) => {
         }
 
         if (consecutiveZeroDays > 0) {
-            let temp = Math.pow(2, consecutiveZeroDays - 1) * 1000
+            let temp = Math.pow(2, consecutiveZeroDays - 1) * 500
             fine += temp > 8000 ? 8000 : temp;
         }
     }
