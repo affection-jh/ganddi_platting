@@ -17,7 +17,20 @@ const config: ConfigDto = {
             paid: 0,
             timeoff: ["2024-03-25", "2024-04-01", "2024-04-02"],
         },
-        
+        {
+            name: "노영진",
+            id: "yyoungjin",
+            startDate: "2025-01-02",
+            paid: 0,
+            timeoff:[],
+        },
+        {
+            name: "신영빈",
+            id: "youngbin03",
+            startDate: "2025-01-02",
+            paid: 0,
+            timeoff:[],
+        },
     ],
     fineFormula: defaultFineFormula,
 }
