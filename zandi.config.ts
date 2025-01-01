@@ -30,7 +30,7 @@ const config: ConfigDto = {
             startDate: "2025-01-01",
             paid: 0,
             timeoff:[],
-        },
+        }
     ],
     fineFormula: defaultFineFormula,
 }
