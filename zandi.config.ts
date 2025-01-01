@@ -7,7 +7,7 @@ const config: ConfigDto = {
     subtitle: `${new Date().getFullYear()} EOS 겨울방학`,
     title: "아찔한 잔디심기",
     icon: "plant.png",
-    globalStartDate: "2025-01-01",
+    globalStartDate: "2025-01-02",
     globalDueDate: "2025-02-28",
     users: [
         {
