@@ -31,6 +31,13 @@ const config: ConfigDto = {
             startDate: '2025-01-01',
             paid:0,
             timeoff:['2024-12-25'] 
+        },
+        {
+            name: '김현수',
+            id :'DECODINGBOT',
+            startDate: '2025-01-02',
+            paid: 0,
+            timeoff: ['2024-12-25']
         }
        
     ],
