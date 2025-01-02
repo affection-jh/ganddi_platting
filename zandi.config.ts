@@ -27,7 +27,7 @@ const config: ConfigDto = {
         ,{
            
             name : '신영빈',
-            id: 'youngbi',
+            id: 'youngbin03',
             startDate: '2025-01-01',
             paid:0,
             timeoff:['2024-12-25'] 
