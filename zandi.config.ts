@@ -14,7 +14,7 @@ const config: ConfigDto = {
             id: 'affection-jh',
             startDate: '2025-01-01',
             paid : 0,
-            timeoff : ['2024-12-25'],
+            timeoff : ['2024-12-25' ],
             
         }
         ,{
